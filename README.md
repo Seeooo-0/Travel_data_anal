@@ -1,7 +1,7 @@
 # Travel_Data_Multi-Modal_Anal
 
 ### Title:
-2022 **관광데이터** 분석
+2022 **Travel Data** Analysis
 
 ### Team:
 Hwang inseo (**individual team**)
