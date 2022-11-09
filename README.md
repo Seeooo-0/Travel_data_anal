@@ -3,8 +3,10 @@
 ### Title:
 2022 **Travel Data** Analysis
 
-### Team:
-Hwang inseo (**individual team**)
+### Team: (**individual team**)
+| Number        | Name          | Major        |
+| ------------- |:-------------:|:-------------|
+| 20102056      | Hwang inseo   | IISE & computer engineering         |
 
 ### Description:
 1. Task :
