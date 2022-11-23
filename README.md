@@ -29,7 +29,7 @@
         - description of image
         - ex) 소안항은 조용한 섬으로 인근해안이 청정해역....
     1. cat1, cat2, cat3 :
-        - Meta information
+        - Meta information.
         - Label data is **'cat3'**
 6. To do :
     - make baseline
