@@ -67,6 +67,8 @@
 ### Result
 - train loss 0.17, train accuracy 0.96
 - validation loss 0.64, validation accuracy 0.83
+- ![result image](https://user-images.githubusercontent.com/90232567/206891633-cede7a79-47fc-4a4e-bb30-b21b7a48f44e.png)
+
 
 ### Conclusion
 - 특이사항 : 데이터 셋이 크지 않아서 layer를 늘리면 성능이 떨어지는 경향이 있다.
