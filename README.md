@@ -33,10 +33,11 @@
         
 ### Mutli-modality :
 ![multi-modal image](https://user-images.githubusercontent.com/90232567/206888038-36e8bbbe-22f4-4ba6-92ac-35f3903becd1.png)
-    - 이는 이름에서 나타내고 있다 싶이, modality가 여러개인 문제라 정의할 수 있다
-    - 위 그림을 통해 mechanism을 이해할 수 있다. 각기 다른 modality들이 각각의 feature extraction 모델이 들어가 따로 처리 된다.
-    - 각각 feature vector을 구했으면, fusion 모델을 통해 classfication 모델이 들어가게 된다.
-    - classification의 class는 128개로 구성되어 있다. (cat3)
+- 이는 이름에서 나타내고 있다 싶이, modality가 여러개인 문제라 정의할 수 있다
+- 위 그림을 통해 mechanism을 이해할 수 있다. 각기 다른 modality들이 각각의 feature extraction 모델이 들어가 따로 처리 된다.
+- 각각 feature vector을 구했으면, fusion 모델을 통해 classfication 모델이 들어가게 된다.
+- classification의 class는 128개로 구성되어 있다. (cat3)
+
 ### Progress
 - image : 이미지 데이터에 있어서 다른 전처리 진행하지 않음
     - 사이즈와 화질이 모두 다르다는 것을 보고 필요성이 보였다.
@@ -61,7 +62,7 @@
     - 여기선 concat 후, encoder layer를 통과시켰다.
         ![fusion image](https://user-images.githubusercontent.com/90232567/206889616-89548a49-27e1-4f73-95b2-91288e8ef7aa.png)
 - loss function : 가중치를 적용해서 설정 (이전 연구 참고)
-    - ![Untitled (3)](https://user-images.githubusercontent.com/90232567/206888448-0ce1866f-d548-48bc-ac9b-213697d66eb5.png)
+    ![Untitled (3)](https://user-images.githubusercontent.com/90232567/206888448-0ce1866f-d548-48bc-ac9b-213697d66eb5.png)
     
 ### Result
 - train loss 0.17, train accuracy 0.96
