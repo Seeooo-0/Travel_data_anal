@@ -59,9 +59,9 @@
     - multiple
     - transformer : 현재 연구가 가장 많이 진행되고 있다고 한다.
     - 여기선 concat 후, encoder layer를 통과시켰다.
-        ![fusion image](https://user-images.githubusercontent.com/90232567/206888409-13d4b4bb-738d-40fd-9980-93d8a0591392.png)
+        ![fusion image](https://user-images.githubusercontent.com/90232567/206889616-89548a49-27e1-4f73-95b2-91288e8ef7aa.png)
 - loss function : 가중치를 적용해서 설정 (이전 연구 참고)
-    ![Untitled (3)](https://user-images.githubusercontent.com/90232567/206888448-0ce1866f-d548-48bc-ac9b-213697d66eb5.png)
+    - ![Untitled (3)](https://user-images.githubusercontent.com/90232567/206888448-0ce1866f-d548-48bc-ac9b-213697d66eb5.png)
     
 ### Result
 - train loss 0.17, train accuracy 0.96
