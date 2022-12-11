@@ -20,16 +20,16 @@
     
 ### Data : 
 ![data image](https://user-images.githubusercontent.com/90232567/206887930-63a5ede4-2b7b-461a-afc4-172745aa843e.png)
-    1. image
-        - train : about 16000
-    1. text
-        - same amount
-        - description of image
-        - ex) 소안항은 조용한 섬으로 인근해안이 청정해역....
-    1. cat1, cat2, cat3 :
-        - Meta information.
-        - Label data is **'cat3'**
-        - cat = category > 대분류,  중분류, 소분류
+1. image
+    - train : about 16000
+1. text
+    - same amount
+    - description of image
+    - ex) 소안항은 조용한 섬으로 인근해안이 청정해역....
+1. cat1, cat2, cat3 :
+    - Meta information.
+    - Label data is **'cat3'**
+    - cat = category > 대분류,  중분류, 소분류
         
 ### Mutli-modality :
 ![multi-modal image](https://user-images.githubusercontent.com/90232567/206888038-36e8bbbe-22f4-4ba6-92ac-35f3903becd1.png)
@@ -88,3 +88,7 @@
 1. [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406).
 2. [Medical VQA survey](https://arxiv.org/abs/2111.10056).
 3. [VQA_visual_question_answer](https://arxiv.org/abs/1505.00468).
+
+
+
+
