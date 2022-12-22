@@ -13,7 +13,7 @@
 - text : 
     - tokenization을 통해 모델에 넣어주었다.
     - token화 과정은 Hugging Face에서 지원하는 AutoTokenizer을 사용해 진행했다. -> 명사와 감탄사 추출
-    - max length, padding truncation 모두 적용하고 True로 설정했다.
+    - max length, padding truncation 모두 적용했다.
         
 ### Model
 - image : pretrained 모델인 Vit 모델 사용! (32개의 patch로 나눠져 들어가는 모델이다.)
