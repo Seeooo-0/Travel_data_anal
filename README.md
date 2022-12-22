@@ -1,5 +1,3 @@
-# Travel_Data_Multi-Modal_Anal
-
 ### Title:
 2022 **Travel Data** Analysis
 
@@ -18,26 +16,6 @@
     - I'm interested in multi-modal
     - This is likely to be good data for beginners who start multimodal.
     
-### Data : 
-![data image](https://user-images.githubusercontent.com/90232567/206887930-63a5ede4-2b7b-461a-afc4-172745aa843e.png)
-1. image
-    - train : about 16000
-1. text
-    - same amount
-    - description of image
-    - ex) 소안항은 조용한 섬으로 인근해안이 청정해역....
-1. cat1, cat2, cat3 :
-    - Meta information.
-    - Label data is **'cat3'**
-    - cat = category > 대분류,  중분류, 소분류
-        
-### Mutli-modality :
-![multi-modal image](https://user-images.githubusercontent.com/90232567/206888038-36e8bbbe-22f4-4ba6-92ac-35f3903becd1.png)
-- 이는 이름에서 나타내고 있다 싶이, modality가 여러개인 문제라 정의할 수 있다
-- 위 그림을 통해 mechanism을 이해할 수 있다. 각기 다른 modality들이 각각의 feature extraction 모델이 들어가 따로 처리 된다.
-- 각각 feature vector을 구했으면, fusion 모델을 통해 classfication 모델이 들어가게 된다.
-- classification의 class는 128개로 구성되어 있다. (cat3)
-
 ### Progress
 - image : 이미지 데이터에 있어서 다른 전처리 진행하지 않음
     - 사이즈와 화질이 모두 다르다는 것을 보고 필요성이 보였다.
@@ -75,23 +53,6 @@
 - 한계점 :
     - 전처리에 있어서 많은 아쉬움이 남는다. 조금 더 공부를 함으로 전처리를 진행했으면 좋았을 것 같다.
     - 모델 사용 방법을 익힌 것이지 모델을 뜯어서 이해한게 아니라 모델의 깊은 이해를 못한게 아쉽다.
-- Ideas :
-    - EDA를 잘 해야 한다는 점을 깊이 깨달았다. class를 잘 파악해 버릴 class를 처리해 주면 더 좋은 결과가 나올 것 같다.
-    - 앙상블을 공부해서 앙상블을 시도해 보고 싶다.
-    - loss 함수를 정의 하는 방법이 다양한 걸로 보아 다른 함수를 만들어 볼 수도 있을 것 같다.
-    - fusion 모델을 단순 concat을 하지 않고 시도 해볼 수도 있을 것 같다.
-- 배운점 : 
-    - multi modal의 첫 task였으며 정말 이런 생각을 한 사람들을 존경하게 되었다. 공부하면서 재밌었고 한없이 감탄 했던 것 같다.
-    - image 처리 model에 대해 이해하게 되었지만, bert 모델은 잘 이해하진 못한 것 같다..
-    - 가장 많이 뜬 오류는 cuda out of memory인데 이 오류를 잡기위해 정말 힘들었고 그만큼 배웠다.
-    - multi modal에 관련한 논문도 읽으며 공부하는데 즐거운 시간이 되었다.
-
-### Papers
-
-1. [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406).
-2. [Medical VQA survey](https://arxiv.org/abs/2111.10056).
-3. [VQA_visual_question_answer](https://arxiv.org/abs/1505.00468).
-4. 원래는 VQA를 하고 싶었다..ㅎ
 
 
 
