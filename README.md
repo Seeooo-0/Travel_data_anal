@@ -5,16 +5,6 @@
 | Number        | Name          | Major        |
 | ------------- |:-------------:|:-------------|
 | 20102056      | Hwang inseo   | IISE & computer engineering         |
-
-### Description:
-1. Task :
-    1. classification task
-    1. multi-modal task
-2. PurPose :
-    - Create an algorithm that can use images and data to automatically classify categories
-4. Why :
-    - I'm interested in multi-modal
-    - This is likely to be good data for beginners who start multimodal.
     
 ### Progress
 - image : 이미지 데이터에 있어서 다른 전처리 진행하지 않음
